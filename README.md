@@ -15,26 +15,26 @@
     // 引入收藏组件
 	import FavoriteModel from '../tpl/FavoriteModel.vue';
     export default {
-    		components: {
-    			FavoriteModel
-    		},
-    		name: "sign",
-    		data() {
-    			return {
-    				getBannerList: []
-                }
-            },
-            created(){
-                //  页面未加载完时
-            },
-            mounted(){
-                console.log('页面加载完后show')
-            },
-            methods:{
-            	_created(){
-            	    console.log('自定义方法')
-            	}
+    	components: {
+    		FavoriteModel
+    	},
+    	name: "sign",
+    	data() {
+    		return {
+    			getBannerList: []
             }
+        },
+        created(){
+            //  页面未加载完时
+        },
+        mounted(){
+            console.log('页面加载完后show')
+        },
+        methods:{
+            _created(){
+            	console.log('自定义方法')
+            }
+        }
     }
 <script>
 ````
