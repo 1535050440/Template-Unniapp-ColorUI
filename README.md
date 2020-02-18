@@ -12,8 +12,10 @@
 <FavoriteModel :second="10"></FavoriteModel>
 
 <script>
-    // 引入收藏组件
-	import FavoriteModel from '../tpl/FavoriteModel.vue';
+
+    // 引入「添加小程序」组件
+	
+    import FavoriteModel from '../tpl/FavoriteModel.vue';
     export default {
     	components: {
     		FavoriteModel
@@ -36,6 +38,7 @@
             }
         }
     }
+
 <script>
 ````
 
