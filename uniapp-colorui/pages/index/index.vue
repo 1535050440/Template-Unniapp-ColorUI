@@ -79,7 +79,18 @@
 				this.PageCur = e.currentTarget.dataset.cur
 				console.log(e.currentTarget.dataset.cur)
 			}
+		},
+		//	转发
+		onShareAppMessage(res) {
+		    if (res.from === 'button') {// 来自页面内分享按钮
+		      console.log(res.target)
+		    }
+		    return {
+		      title: '个性签名居中',
+		      path: ''
+		    }
 		}
+		// 
 	}
 </script>
 
