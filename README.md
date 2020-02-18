@@ -1,3 +1,19 @@
+## 已增加
+
+组件一：点击「添加小程序」2020-02-18
+
+````text
+目录：/pages/tpl/FavoriteModel.vue
+
+使用方法：
+
+//  修改为10s
+
+<FavoriteModel :second="10"></FavoriteModel>
+
+````
+
+
 <p style="text-align: center;"><img src="https://image.weilanwl.com/uni/UniAppReadme.jpg" alt="ColorUI简介"></img></p>
 
 ## 前言
